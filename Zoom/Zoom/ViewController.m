@@ -4,8 +4,8 @@
 //
 //  Created by 吕劲 on 2023/1/12.
 //
-
 #import "ViewController.h"
+#import "ZoomView.h"
 
 @interface ViewController ()
 
@@ -15,7 +15,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UIImage *image = [UIImage imageNamed:@"leaves.gif"];
+    ZoomView *zoomView = [[ZoomView alloc] initWithFrame:self.view.bounds image:image];
+    zoomView.maxScale = 5.0;
+    [self.view addSubview:zoomView];
 }
 
 

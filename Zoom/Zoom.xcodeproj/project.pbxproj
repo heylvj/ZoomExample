@@ -14,6 +14,8 @@
 		594A57C6296FFD71005A2526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594A57C5296FFD71005A2526 /* Assets.xcassets */; };
 		594A57C9296FFD71005A2526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594A57C7296FFD71005A2526 /* LaunchScreen.storyboard */; };
 		594A57CC296FFD71005A2526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A57CB296FFD71005A2526 /* main.m */; };
+		594A57D5296FFE0B005A2526 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = 594A57D2296FFE0A005A2526 /* leaves.gif */; };
+		594A57D6296FFE0B005A2526 /* ZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A57D4296FFE0A005A2526 /* ZoomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		594A57C8296FFD71005A2526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594A57CA296FFD71005A2526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594A57CB296FFD71005A2526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594A57D2296FFE0A005A2526 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		594A57D3296FFE0A005A2526 /* ZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomView.h; sourceTree = "<group>"; };
+		594A57D4296FFE0A005A2526 /* ZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,9 @@
 				594A57BA296FFD71005A2526 /* AppDelegate.m */,
 				594A57BC296FFD71005A2526 /* SceneDelegate.h */,
 				594A57BD296FFD71005A2526 /* SceneDelegate.m */,
+				594A57D2296FFE0A005A2526 /* leaves.gif */,
+				594A57D3296FFE0A005A2526 /* ZoomView.h */,
+				594A57D4296FFE0A005A2526 /* ZoomView.m */,
 				594A57BF296FFD71005A2526 /* ViewController.h */,
 				594A57C0296FFD71005A2526 /* ViewController.m */,
 				594A57C2296FFD71005A2526 /* Main.storyboard */,
@@ -135,6 +143,7 @@
 			files = (
 				594A57C9296FFD71005A2526 /* LaunchScreen.storyboard in Resources */,
 				594A57C6296FFD71005A2526 /* Assets.xcassets in Resources */,
+				594A57D5296FFE0B005A2526 /* leaves.gif in Resources */,
 				594A57C4296FFD71005A2526 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +157,7 @@
 			files = (
 				594A57C1296FFD71005A2526 /* ViewController.m in Sources */,
 				594A57BB296FFD71005A2526 /* AppDelegate.m in Sources */,
+				594A57D6296FFE0B005A2526 /* ZoomView.m in Sources */,
 				594A57CC296FFD71005A2526 /* main.m in Sources */,
 				594A57BE296FFD71005A2526 /* SceneDelegate.m in Sources */,
 			);
